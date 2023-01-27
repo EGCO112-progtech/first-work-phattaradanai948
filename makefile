@@ -1,5 +1,5 @@
-DEPS=ming
+DEPS=test
 
 argument: main.c 
-	gcc main.c -o $(DEPS)
+	gcc mainmake.c -o $(DEPS)
 
