@@ -1,5 +1,8 @@
-DEPS=test
-
-argument: main.c 
-	gcc mainmake.c -o $(DEPS)
+DEPS= test
+compile:main.c 
+	gcc main.c -o $(DEPS)
+run:	$(DEPS)
+	./$(DEPS)
+clean:$(DEPS)
+	rm	$(DEPS)
 
